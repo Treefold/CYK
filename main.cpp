@@ -72,7 +72,7 @@ int main()
             }
         }
 
-        cout << ((mat[n][1].find (1) != mat[n][1].end() ) ? "DA\n" : "NU\n");
+        cout << ((mat[n][1].find (1) != mat[n][1].end() ) ? "Yes\n" : "No\n");
     }
 
     in.close();
